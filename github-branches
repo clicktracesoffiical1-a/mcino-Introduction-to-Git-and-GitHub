@@ -1,0 +1,19 @@
+$ git branch -a
+  * main
+    bug-fix-typo
+    bug-fix-revert
+    remotes/origin/main
+    remotes/origin/bug-fix-typo
+    remotes/origin/bug-fix-revert
+    remotes/origin/HEAD -> origin/main
+
+$ git branch -v
+  * main  1a2b3c4 [origin/main] Final project complete
+    bug-fix-typo  5d6e7f8 Fix typo in README.md
+    bug-fix-revert  8a9b0c1 Revert bug fix
+
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
