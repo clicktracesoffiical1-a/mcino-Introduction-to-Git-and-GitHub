@@ -1,1 +1,27 @@
-$ curl -s https://api.github.com/repos/clicktracesoffiical1-a/mcino-Introduction-to-Git-and-GitHub/pulls/1
+$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/12157
+{
+  "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/12157",
+  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/12157",
+  "state": "closed",
+  "title": "Fix typo and revert bug",
+  "user": {
+    "login": "clicktracesoffiical1-a"
+  },
+  "head": {
+    "label": "clicktracesoffiical1-a:bug-fix-revert",
+    "ref": "bug-fix-revert",
+    "repo": {
+      "name": "mcino-Introduction-to-Git-and-GitHub",
+      "full_name": "clicktracesoffiical1-a/mcino-Introduction-to-Git-and-GitHub",
+      "fork": true
+    }
+  },
+  "base": {
+    "label": "ibm-developer-skills-network:main",
+    "ref": "main",
+    "repo": {
+      "name": "mcino-Introduction-to-Git-and-GitHub",
+      "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+    }
+  }
+}
